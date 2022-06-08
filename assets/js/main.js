@@ -89,8 +89,8 @@ let setNewInfo = (ip) => {
         })
         .catch(err => console.log(err))
 }
-//Set the new map location with the new latitute and 
-setNewMap = (data) => {
+//Set the new map location with the new latitute and longitude
+const setNewMap = (data) => {
     let newLat = data.latitude
     let newLong = data.longitude
     
