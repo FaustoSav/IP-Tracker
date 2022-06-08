@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: 'Rubik', sans-serif;
+      
+    }
+    
+  }
+
+  @layer components {
+      .title-info{
+          @apply uppercase text-xxs  font-bold text-darkGray tracking-widest lg:text-xs   
+      }
+      .new-divider{
+        @apply hidden lg:block w-px  bg-gray-200 h-20  lg:mx-12  xl:mx-16 
+      }
+  }
